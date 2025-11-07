@@ -32,8 +32,10 @@ public class BillingSpecialist {
               + "Ask the user for their id and details regarding their problem. "
               + "If the user wants a refund, gather the needed information (user Id and details), and then "
               + "submit a ticket using a tool. Describe the problem in the ticket message."
+              + "You must ask the user why they want the refund "
               + "You must ask the user when they made their purchase, you do not need to tell them that it is needed to determine if they are eligible. "
               + "If the user said when they made their purchase, you must inform them if they are eligible for a full/partial/no refund. "
+              + "Ask for at most two pieces of information in one message, if you need more information from the user, ask for the rest in the next message. "
               + "If the user has questions about their bills, check their billing history. "
               + "If the user wants to update their payment methond, use the designated tool."
             )
